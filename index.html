@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kero+ Pizzaria — promoções, cardápio, bebidas e pedidos pelo WhatsApp.">
+  <title>Kero+ | Pizzaria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#promocoes" aria-label="Kero+ página inicial">kero<span>+</span></a>
+
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Abrir menu">
+      <label class="menu-button" for="menu-toggle" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#promocoes">Promoções</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#bebidas">Bebidas</a>
+        <a href="#contato">Contato</a>
+        <!-- Troque o número abaixo pelo WhatsApp real, mantendo apenas números -->
+        <a class="nav-cta" href="https://wa.me/5512997129467" target="_blank" rel="noopener">Pedir agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section promotions" id="promocoes">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+
+      <div class="container">
+        <div class="intro">
+          <div class="eyebrow"><span></span> Pizzas em promoção</div>
+          <h1>Promoções feitas para deixar sua noite <em>mais gostosa.</em></h1>
+          <p>Escolha uma oferta, confira nossos sabores e faça seu pedido diretamente pelo WhatsApp.</p>
+        </div>
+
+        <div class="promotion-grid">
+          <article class="promotion-card promotion-featured">
+            <div class="card-topline">
+              <span class="promo-category">Mais pedido</span>
+              <span class="promo-badge">-18%</span>
+            </div>
+            <div class="promo-visual pizza-one" aria-hidden="true">
+              <span class="topping t1"></span><span class="topping t2"></span><span class="topping t3"></span>
+              <span class="leaf l1"></span><span class="leaf l2"></span>
+            </div>
+            <div class="promo-content">
+              <h2>Pizza de Calabresa</h2>
+              <p>Molho, Mussarela, calabresa, cebola e orégano.</p>
+              <div class="price-row"><strong>R$ 45,00</strong><del>R$ 60,00</del></div>
+              <a href="https://wa.me/5512997129467?text=Ol%C3%A1%2C%20quero%20pedir%20a%20Pizza%20de%20Calabresa" target="_blank" rel="noopener">Pedir promoção <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="promotion-card">
+            <div class="card-topline">
+              <span class="promo-category">Clássica</span>
+              <span class="promo-badge">Oferta</span>
+            </div>
+            <div class="promo-visual pizza-two" aria-hidden="true">
+              <span class="topping t1"></span><span class="topping t2"></span><span class="topping t3"></span>
+              <span class="topping t4"></span>
+            </div>
+            <div class="promo-content">
+              <h2>Pizza de Mussarela</h2>
+              <p>Molho, tomate, mussarela e orégano.</p>
+              <div class="price-row"><strong>R$ 45,00</strong><del>R$ 60,00</del></div>
+              <a href="https://wa.me/5512997129467?text=Ol%C3%A1%2C%20quero%20pedir%20a%20Pizza%20de%20Mussarela" target="_blank" rel="noopener">Pedir promoção <span>→</span></a>
+            </div>
+          </article>
+
+          <article class="promotion-card">
+            <div class="card-topline">
+              <span class="promo-category">Tradicional</span>
+              <span class="promo-badge">Oferta</span>
+            </div>
+            <div class="promo-visual pizza-three" aria-hidden="true">
+              <span class="topping t1"></span><span class="topping t2"></span><span class="topping t3"></span>
+              <span class="leaf l1"></span><span class="leaf l2"></span><span class="leaf l3"></span>
+            </div>
+            <div class="promo-content">
+              <h2>Pizza Apresuntada</h2>
+              <p>Molho, presunto, mussarela, cebola e orégano.</p>
+              <div class="price-row"><strong>R$ 45,00</strong><del>R$ 60,00</del></div>
+              <a href="https://wa.me/5512997129467?text=Ol%C3%A1%2C%20quero%20pedir%20a%20Pizza%20Apresuntada" target="_blank" rel="noopener">Pedir promoção <span>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="cardapio">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Nosso cardápio</span>
+            <h2>Escolha seu sabor favorito</h2>
+          </div>
+          <p>Massa leve, molho de tomate e ingredientes selecionados.</p>
+        </div>
+
+        <div class="menu-grid">
+
+<article class="menu-card menu-highlight">
+            <div class="menu-icon icon-portuguesa" aria-hidden="true"></div>
+            <div class="menu-info">
+              <span class="menu-tag tag-hot">Mais pedida</span>
+              <div class="menu-title"><h3>Portuguesa</h3><strong>R$ 62,90</strong></div>
+              <p>Molho, ervilha, ovo, azeitona, milho, cebola, presunto, batata, palmito, mussarela orégano.</p>
+            </div>
+          </article>
+
+
+          <article class="menu-card">
+            <div class="menu-icon icon-frango" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Frango c/ Catupiry</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, catupiry, frango, mussarela e orégano.</p>
+            </div>
+          </article>
+
+          
+
+          <article class="menu-card">
+            <div class="menu-icon icon-apresuntada" aria-hidden="true"></div>
+            <div class="menu-info">
+              
+              <div class="menu-title"><h3>Apresuntada Especial</h3><strong>R$ 59,90</strong></div>
+              <p>Molho, presunto, catupiry, azeitona, mussarela, bacon e orégano.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon icon-milho" aria-hidden="true"></div>
+            <div class="menu-info">
+              
+              <div class="menu-title"><h3>Milho Verde</h3><strong>R$ 56,90</strong></div>
+              <p>Molho, catupiry, milho, mussarela e orégano.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon icon-bacon" aria-hidden="true"></div>
+            <div class="menu-info">
+              
+              <div class="menu-title"><h3>Bacon</h3><strong>R$ 60,90</strong></div>
+              <p>Molho, catupiry, mussarela, bacon, azeitona e orégano.</p>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-icon icon-palmito" aria-hidden="true"></div>
+            <div class="menu-info">
+              
+              <div class="menu-title"><h3>Palmito</h3><strong>R$ 52,90</strong></div>
+              <p>Molho, catupiry, palmito, mussarela e orégano.</p>
+            </div>
+          </article>
+
+	<article class="menu-card">
+            <div class="menu-icon icon-atum" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Atum</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, atum, cebola, azeitona, mussarela e orégano.</p>
+            </div>
+          </article>
+
+
+<article class="menu-card">
+            <div class="menu-icon icon-brocolis" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Brócolis</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, brócolis, palmito, cebola, azeitona, mussarela e orégano.</p>
+            </div>
+          </article>
+
+
+<article class="menu-card">
+            <div class="menu-icon icon-alho" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Alho e Oléo</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, mussarela, alho, azeitona e orégano.</p>
+            </div>
+          </article>
+
+
+<article class="menu-card">
+            <div class="menu-icon icon-pomodoro" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Pomodoro</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, mussarela, tomate, azeitona, alho salpicado e orégano.</p>
+            </div>
+          </article>
+
+
+<article class="menu-card">
+            <div class="menu-icon icon-toscana" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Toscana</h3><strong>R$ 54,90</strong></div>
+              <p>Molho de tomate, muçarela, manjericão fresco e azeite.</p>
+            </div>
+          </article>
+
+
+<article class="menu-card">
+            <div class="menu-icon icon-calafrango" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Calafrango</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, catupiry, frango, mussarela, calabresa ralada, cebola e orégano.</p>
+            </div>
+          </article>
+
+
+<article class="menu-card">
+            <div class="menu-icon icon-kero" aria-hidden="true"></div>
+            <div class="menu-info">
+             
+              <div class="menu-title"><h3>Kero</h3><strong>R$ 54,90</strong></div>
+              <p>Molho, frango, batata palha, mussarela, calabresa, tomate, azeitona, cebola e orégona.</p>
+            </div>
+          </article>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section drinks-section" id="bebidas">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">Para acompanhar</span>
+            <h2>Bebidas geladas</h2>
+          </div>
+          <p>Escolha a bebida ideal para completar seu pedido.</p>
+        </div>
+
+        <div class="drink-grid">
+          <article class="drink-card">
+            <span class="drink-emoji">🥤</span>
+            <div><h3>Guraná Kaut 2 L</h3><p>Refrigerante gelado para acompanhar sua pizza.</p></div>
+            <strong>R$ 14,90</strong>
+          </article>
+          <article class="drink-card">
+            <span class="drink-emoji">🥤</span>
+            <div><h3>Sukita Laranja 2 L</h3><p>Refrigerante gelado para completar seu pedido.</p></div>
+            <strong>R$ 12,90</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-card">
+        <div class="contact-copy">
+          <span class="section-kicker">Contato</span>
+          <h2>Seu pedido está a uma mensagem de distância.</h2>
+          <p>Fale conosco pelo WhatsApp para escolher os sabores, confirmar os valores e finalizar o pedido.</p>
+        </div>
+
+        <div class="whatsapp-box">
+          <span class="whatsapp-icon" aria-hidden="true">☎</span>
+          <div>
+            <small>WhatsApp</small>
+            <strong>(12) 99712-9467</strong>
+          </div>
+          <a href="https://wa.me/5512997129467" target="_blank" rel="noopener">Conversar agora <span>→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#promocoes">kero<span>+</span></a>
+      <p>Pizza feita para compartilhar.</p>
+      <a href="https://wa.me/5512997129467" target="_blank" rel="noopener">WhatsApp: (12) 99712-9467</a>
+    </div>
+  </footer>
+</body>
+</html>
